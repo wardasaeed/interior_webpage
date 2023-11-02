@@ -1,0 +1,117 @@
+body{
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+#first{
+   float: left;
+}
+.navbar ul {
+   list-style-type: none;
+   margin-top: 40px;
+   padding: 40px;
+   overflow: hidden;
+   margin: 40px;
+ }
+ 
+ .navbar ul li {
+   float:right;
+   font-size: 25px;
+   font-family: monospace;
+ }
+ .navbar li:hover{
+   text-decoration: underline;
+   color: #62bbaf;
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 20px 20px;
+   text-decoration: none;
+ }
+ h1{
+   color: white;
+   text-align: center;
+   margin-top: 110px;
+   font-size: 500%;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ pre{
+   text-align: center;
+   color: white;
+   font-size: larger;
+   font-family: monospace;
+ }
+ .button1{
+   background-color:  #62bbaf;
+   border: none;
+   color: white;
+   padding: 15px 40px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 35px;
+   margin-left: 40%;
+   font-family: monospace;
+ }
+ 
+ 
+.button2:hover {
+   background-color: #62bbaf;
+ }
+ .button2 {
+   border: 2px solid  #62bbaf;
+   padding: 15px 40px;
+   margin-left: 2%;
+   font-size: 16px;
+   cursor: pointer;
+   border-color: #62bbaf;
+   border-radius: 35px;
+   text-decoration: none;
+   background-color: transparent;
+   color: white;
+   font-family: monospace;
+
+ }
+ /*responsive style */
+ @media screen and (max-width:1000px){
+   .navbar ul li {
+      font-size: 17px;
+    }
+ }
+ @media screen and (max-width:800px){
+   .navbar ul li {
+      font-size: 14px;
+    }
+ }
+
+ @media screen and (max-width:720px){
+   .navbar ul li {
+      font-size: 12px;
+    }
+ }
+ @media screen and (max-width:680px){
+   .navbar ul li {
+      font-size: 20px;
+      display: block;
+      width: 100%;
+      margin: 12PX;
+    }
+    .button1{
+      margin-left: 100px;
+     margin-bottom: 15px;
+    }
+    .button2{
+      margin-left: 100px;
+    
+    }
+    h1{
+      margin-left: 20px;
+    }
+ }
+ 
+ 
